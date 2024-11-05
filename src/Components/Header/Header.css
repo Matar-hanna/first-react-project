@@ -1,0 +1,28 @@
+.cover{
+ height:  calc(100vh- 50px);;
+   z-index: 0;
+   
+   background-color: blue;
+   margin:25px ;
+   border-radius: 25px;
+  position:relative;
+}
+.paragraph{
+  color: white;
+  font-size: 12px;
+  border: 1px solid white;
+  border-radius: 25px;
+  padding: 3px;
+}
+.hero{
+  color: white;
+  margin: 100px 100px 0 100px;
+}
+.hero h2{
+  font-size: 28px;
+  font-weight: 700;
+}
+.hero ul li{
+  font-size: 12px;
+ padding-bottom: 5px;
+}
