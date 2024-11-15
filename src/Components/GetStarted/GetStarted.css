@@ -1,0 +1,101 @@
+.footer-blue-contact{
+    background-color: blue;
+    border-radius: 15px;
+    color: white;
+}
+.textPadding{
+    padding: 20px 50px;
+}
+.footer-blue-contact span{
+    font-size: 12px;
+}
+.footer-blue-contact h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+.footer-blue-contact a{
+    background-color: white;
+}
+.footer-blue-contact-icons{
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: white;
+    color: blue;
+}
+.blue-fdiv-contact{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.712);
+}
+.blue-secdiv-contact{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.712);
+}
+.Video-Image{
+    padding: 0;
+    width: 100%;
+    object-fit:fill;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.about-btn{
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding:5px 20px ;
+    font-size: 13px;
+    font-weight: 600;
+}
+.about-form h2{
+font-size: 25px;
+font-weight: 800;
+}  
+.about-form p{
+    font-size: 12px;
+} 
+.map{
+    width: 100%;
+  height: 400px;
+}
+.d-bg-footer{
+   
+    background-color: #18185e;
+   padding-top: 50px;
+}
+.footer-blue{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+    background-color: blue;
+    border-radius: 15px;
+    color: white;
+    
+}
+.footer-blue span{
+font-size: 12px;
+}
+.footer-blue h4 {
+font-size: 20px;
+font-weight: 600;
+}
+.footer-blue a{
+background-color: white;
+}
+.footer-blue-icons{
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: white;
+    color: blue;
+}
+.blue-fdiv{
+width: 40%;
+border-right: 1px solid rgba(255, 255, 255, 0.712);
+}
+.blue-secdiv{
+width: 30%;
+border-right: 1px solid rgba(255, 255, 255, 0.712);
+}

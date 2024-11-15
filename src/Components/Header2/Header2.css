@@ -1,0 +1,33 @@
+.bg-img{
+    
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    opacity: 0.8;
+}
+.midle  {
+    text-align: center; 
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.midle h2{
+    font-size: 48px;
+}
+.hero2{
+    overflow: hidden;
+    background-color: rgba(0, 0, 255, 0.993);
+}
+.left{
+    position: absolute;
+    top: 0%;
+    left: -10%;
+}
+.right{
+    position: absolute;
+top: 0;
+right: 0;
+}

@@ -1,0 +1,79 @@
+.sec-bg{
+    margin-top: 250px;
+    width: 100%;
+    padding-top: 100px;
+    position: relative;
+    background-color: #f2f6fe;
+}
+.heading p{
+    font-size: 15px;
+    color: blue;
+
+}
+.heading h2{
+    font-size: 35px;
+    font-weight: 700;
+    color: black;
+}
+.clientCard{
+    width: 300px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+}
+.clientCard-blue{
+    width: 300px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color:blue;
+    color: white;
+}
+.stars{
+    color: gold;
+}
+.clientCard-blue p{
+    font-size: 12px;
+    padding-top: 5px;
+}
+.clientCard-blue h5{
+    font-size: 14px;
+    padding-top: 5px;
+}
+.clientCard-blue span{
+    font-size: 12px;
+}
+.clientCard p{
+    font-size: 12px;
+    padding-top: 5px;
+}
+.clientCard h5{
+    font-size: 14px;
+    padding-top: 5px;
+}
+.clientCard span{
+    font-size: 12px;
+}
+.comma-blue{
+    color: white;
+   margin-top: 20px;
+}
+.comma{
+    color: rgb(196 201 255);
+   margin-top: 20px;
+}
+.blue-cont{
+    position: absolute;
+   top: -150px;
+}
+.blue-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+@media (max-width:768px) {
+    .blue-container{
+        
+        
+    }
+}

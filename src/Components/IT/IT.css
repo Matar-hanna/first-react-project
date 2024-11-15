@@ -1,0 +1,88 @@
+.MH-title p{
+font-size: 15px;
+color: blue;
+}
+.MH-title h2{
+    font-size: 35px;
+    font-weight: 700;
+    color: black;
+}
+.MH-card{
+    width: 250px;
+    display: block;
+    border-radius: 20px;
+    background-color:#f3f7fb;
+    padding: 20px;
+
+}
+.MH-card p{
+    font-size: 12px;
+    color: #5c6988;
+}
+.MH-card h3{
+    font-size: 18px;
+    font-weight: 600;
+}
+.MH-card button{
+    padding: 10px;
+    font-size: 12px;
+    color: #5c6988;
+    border: 0,5px solid #5c6988;
+
+    border-radius: 20px;
+    background-color:#f3f7fb ;
+}
+.arrowr{
+   box-shadow: 1px 1px 1px 0px;
+   width: 25px;
+   height: 25px;
+   border-radius: 50%;
+   background-color: blue;
+   color: white;
+}
+.arrowl{
+    box-shadow: 1px 1px 1px 0px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color:white;
+    color: black;
+ }
+
+ .videoImage{
+  position: absolute;
+    border-radius: 25px;
+    top: -200px;
+ }
+ .blue-section{
+    margin-top: 250px;
+    width: 100%;
+    background-color: #18185e;
+    padding-top: 100px;
+    position: relative;
+ }
+ .numbers{
+    display: flex;
+    justify-content: space-between;
+    
+    flex-wrap: wrap;
+    color: white;
+   
+   bottom: 0;
+ }
+ .number{
+    width: 250px;
+ }
+ .number h4{
+    font-size: 18px;
+    font-weight: 500;
+ }
+ .number  p{
+    font-size: 12px;
+    color: #5c6988;
+}
+.number h2{
+    outline-color:white;
+ 
+    
+}

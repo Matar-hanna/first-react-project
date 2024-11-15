@@ -1,14 +1,21 @@
-// import "./../node_modules/bootstrap/dist/css/bootstrap.min.css"
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
-import NavBar from './Components/NavBar/NavBar'
-import Header from './Components/Header/Header'
+
+import { Route, Routes } from 'react-router-dom'
+import About from './Pages/About/About.jsx'
+import Home from './Pages/Home/Home.jsx'
+import Contact from './Pages/Contact/Contact.jsx';
 
 function App() {
 
   return (
     <>
-    <NavBar />
-    <Header />
+    
+    <Routes>
+      <Route path='/' element={<Home />} />
+      <Route path='/About' element={<About />} />
+      <Route path='/contact' element={<Contact />} />
+    </Routes>
     </>
   )
 }

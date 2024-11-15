@@ -1,1 +1,6 @@
-
+.blue-cont-man {
+    position: absolute;
+    bottom: -53px !important;
+    background-color: blue;
+    top: 50px !important;
+}

@@ -1,0 +1,142 @@
+.heading p{
+    font-size: 15px;
+color: blue;
+
+}
+.heading h2{
+    font-size: 35px;
+    font-weight: 700;
+    color: black;
+}
+ .items span{
+   
+    font-size: 16px;
+    border: 0.1px solid black;
+    border-radius: 25px;
+   padding-top: 10px;
+    color: black;
+}
+
+.MH-btn{
+    font-size: 16px;
+    border-radius: 25px;
+    background-color: blue;
+    padding: 5px;
+    color: white;
+}
+.arrowImg{
+    height: 50px;
+}
+.items p{
+    padding-top: 16px;
+
+}
+.s-card{
+    width: 300px;
+    background-color:blue ;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+.s-card-d{
+    width: 300px;
+    background-color:#18185e ;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+.checkMark{
+    color: blue;
+}
+.xMArk{
+    color: red;
+}
+.s-card-d h3{
+    font-size: 15px;
+}
+.s-card h3{
+    font-size: 15px;
+}
+
+.s-card-d span{
+    font-size: 25px;
+    font-weight: 700;
+}
+.s-card-d p{
+    font-size: 12px;
+    padding-top: 12px;
+}
+.s-card p{
+    font-size: 12px;
+    padding-top: 12px;
+}
+.ul-list ul li{
+list-style: none;
+padding-top: 5px;
+font-size: 12px;
+padding: 10px;
+}
+.b-card{
+    width: 350px;
+    border: 1px solid rgb(128, 128, 128);
+    border-radius: 15px;
+    padding: 20px;
+}
+.card-btn{
+    width: 100%;
+    padding: 10px;
+    color: blue;
+    font-size: 12px;
+    border-radius: 15px;
+    background-color: white;
+    border: 1px solid rgb(128, 128, 128);
+}
+.card-btn-d{
+    width: 100%;
+    padding: 10px;
+    color: white;
+    font-size: 12px;
+    border-radius: 15px;
+    background-color: #18185e ;
+    border: 1px solid rgb(128, 128, 128);
+}
+.sec{
+    position: relative;
+}
+.handImg{
+    width: 100px;
+    bottom: 0px;
+    position: absolute;
+}
+.l-bg{
+    position: relative;
+    background-color:#384bff;
+    padding: 20px 0px;
+    border-radius: 20px;
+}
+.sit-girl{
+    width: 200px;
+}
+.small-lines{
+    width: 300px;
+    right:150px ;
+    position: absolute;
+}
+.WHITE-BTN{
+    height: 30px;
+    border-radius: 25px;
+    padding: 5px;
+    font-size: 10px;
+    background-color: white;
+    border: none;
+}
+.SUPPORT{
+    text-align: start;
+    width: 350px;
+    color: white;
+}
+.SUPPORT h3{
+    font-size: 20px;
+    font-weight: 800;
+}
+

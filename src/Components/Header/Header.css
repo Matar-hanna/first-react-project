@@ -1,11 +1,45 @@
 .cover{
- height:  calc(100vh- 50px);;
+  
    z-index: 0;
-   
-   background-color: blue;
+   background-color: #384bff;
    margin:25px ;
    border-radius: 25px;
-  position:relative;
+   position: relative;
+   overflow: hidden;
+  
+}
+.clock{
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  transform: translateY(-70px);
+  width: max-content;
+}
+.clock1{
+    border-radius: 50%;
+    padding: 5px;
+}
+.circle1{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  transform: translate(-7px, 35px);
+  background-color: #384bff00;
+  box-shadow: 5px 4px 1px white;
+}
+.circle2{
+  width: 32px;
+  height: 10px;
+  border-radius: 50%;
+  transform: translate(8px, 35px);
+  box-shadow: -10px 4px 1px white;
+  background-color: #384bff;
+}
+.hero1{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap-reverse;
+  align-items: end;
 }
 .paragraph{
   color: white;
@@ -15,14 +49,120 @@
   padding: 3px;
 }
 .hero{
+  min-width: 300px;
   color: white;
-  margin: 100px 100px 0 100px;
+  /* padding:100px 0 0px 100px; */
+  margin-top: 60px;
 }
 .hero h2{
-  font-size: 28px;
-  font-weight: 700;
+  font-size: 35px;
+  font-weight: 900;
 }
 .hero ul li{
-  font-size: 12px;
+  list-style: none;
+  font-size: 16px;
  padding-bottom: 5px;
 }
+.hero button{
+  font-size: 16px;
+  font-weight: 800;
+  padding: 10px;
+  border: none;
+  border-radius: 30px;
+  background-color:orange;
+  color: #ffff;
+
+}
+.smallCards h6{
+font-size: 16px;
+}
+.caption{
+ margin-top: 25px;
+ font-size: 10px;
+}
+.cards{
+  display: flex;
+  justify-content: space-between;
+  border: none;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+  background-color: rgb(76 93 255);
+}
+.Lines{
+width: 50%;
+  position: absolute;
+  right:-250px;
+  bottom: -150px;
+  /* overflow: hidden; */
+}
+.Person{
+ position: relative;
+ bottom: 0;
+  display: flex;
+ /* justify-content: center; */
+ width: 300px;
+ margin-left: 20%;
+ /* padding-bottom: 25px; */
+
+}
+.line::after{
+content: ' ';
+width: 100%;
+background: black;
+height: 1px;
+position: absolute;
+left: 0;
+bottom: -50px;
+}
+.Clock{
+  margin: 0 auto;
+background-color: #ffff;
+  box-shadow: 0px 10px 1px 15px rgb(255, 255, 255);
+  
+}
+
+@media (max-width:768px) {
+  .hero1{
+    display:flex;
+    justify-content: center;
+    
+  }
+  
+.Person{
+  margin-left: 0;
+}
+  .cover{
+      margin: 0;
+      background-color: blue;
+      position:relative;
+   }
+   .cards{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   }
+   .hero-ul{
+    display: block !important;
+   }
+   .Lines{
+    display: none;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

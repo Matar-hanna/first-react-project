@@ -1,0 +1,89 @@
+.blue-cont-man{
+    position: absolute;
+   top: -50px;
+}
+.WHITE-BTN {
+    height: 30px;
+    border-radius: 25px;
+    padding: 5px;
+    font-size: 10px;
+    background-color: white;
+    border: none;
+}
+.ctalines{
+    width: 300px;
+}
+
+.manimg{
+    position: absolute;
+    width: 250px;
+    bottom: 0;
+}
+.l-bg h4{
+    width: 300px;
+    color: white;
+}
+.d-bg{
+   
+    background-color: #18185e;
+   padding-top: 50px;
+}
+.images{
+    width: 300px;
+}
+.footerImg{
+    width: 50px;
+    height: 50px;
+}
+.footer-li  li{
+    list-style: none;
+    padding-top: 10px;
+    color: white;
+}
+.footer-li li p{
+    font-size: 12px;
+    padding-top:20px ;
+    color: white;
+}
+.footer-li  li span{
+    font-size: 10px;
+    color: white;
+}
+.footer-li  li h5{
+    font-size:10px ;
+    font-weight: 500;
+    width: 130px;
+    color: white;
+}
+.input{
+    padding: 10px;
+    border-radius: 10px;
+}
+.footer-btn{
+    padding:5px 15px;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+}
+.checkbox{
+    font-size: 10px;
+    color: white;
+}
+.logoImg{
+    color: white;
+}
+.icon{
+   box-shadow: 1px 1px 1px 1px white;
+}
+.footer-blue-background{
+    width: 100%;
+    background-color: blue;
+    color: white;
+    font-size: 12px;
+    padding-top: 10px;
+}
+.footer-photos{
+    display: flex;
+   gap: 5px;
+}

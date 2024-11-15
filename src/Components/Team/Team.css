@@ -1,0 +1,141 @@
+.MH-title p{
+    font-size: 15px;
+    color: blue;
+    }
+.MH-title h2{
+        font-size: 35px;
+        font-weight: 700;
+        color: black;
+}
+.MH-title button{
+background-color: blue;
+color: white;
+border: none;
+border-radius: 25px;
+padding:0px 20px ;
+font-size: 13px;
+font-weight: 600;
+}
+.m-cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.card-img{
+    width: 250px;
+    height: 259.25px;
+    object-fit:fill;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.card-text{
+    padding-top: 20px;
+    text-align: center; 
+    color: white;
+    bottom:  -250px;
+    background-color: black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.member-card{
+    padding-top: 20px;
+    width: 250px;
+    height: 300px;
+}
+.envato-img{
+    width: 150px;
+    
+}
+.line{
+    position: relative;
+}
+.lines::before{
+content: ' ';
+width: 40%;
+
+left: 0;
+height: 1px;
+color: black;
+background: black;
+position: absolute;
+
+}
+.lines::after {
+    content: ' '!important;
+    width: 40%;
+    right: 0!important;
+    height: 1px;
+    color: black;
+    background: black;
+    position: absolute;
+   
+    }
+.d-bg-footer{
+        background-color: #18185e;
+       padding-top: 50px;
+}
+.footer-blue{
+        display: flex;
+        align-items: center;
+        padding: 30px 50px;
+        background-color: blue;
+        border-radius: 15px;
+        color: white;
+        
+}
+.footer-blue span{
+font-size: 12px;
+}
+.footer-blue h4 {
+font-size: 20px;
+font-weight: 600;
+}
+.footer-blue a{
+background-color: white;
+}
+.footer-blue-icons{
+        width: 35px;
+        height: 35px;
+        padding: 10px;
+        border-radius: 50%;
+        background-color: white;
+        color: blue;
+}
+.blue-fdiv{
+    display: flex;
+width: 40%;
+border-right: 1px solid rgba(255, 255, 255, 0.712);
+}
+.blue-secdiv{
+    width: 30%;
+    border-right: 1px solid rgba(255, 255, 255, 0.712);
+}
+@media (max-width:768px) {
+    .m-cards{
+       gap: 100px;
+       display: flex;
+       justify-content: center;
+    }
+  .d-bg-footer .footer-blue{
+        display: block;
+        padding-top: 50px;
+        background-color: blue;
+        border-radius: 15px;
+        color: white;
+    }
+    .footer-blue .blue-fdiv{
+        display: block;
+        width: 100%;
+        border: none;
+        }
+        .footer-blue  .blue-secdiv{
+            width: 100%;
+          border: none;
+        }
+        .d-bg-footer .footer-blue h4 {
+            font-size: 15px;
+            font-weight: 700;
+            }
+}
